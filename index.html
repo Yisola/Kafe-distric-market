@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css"  href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="box welcome-banner">
-            KAFE DISTRICT MARKET
+            <p id="title">KAFE DISTRICT MARKET</p>
         </div>
+
+
         <div class="box welcome-form">
-           <!-- <h2>Welcome</h2>  -->
+            <div id="form-content">
+                <h2>Welcome</h2>
+                <h5>Enter your log in details</h5>
+
+                <form action="">
+                    <div>
+                        <span>
+                            <img src="images/contact-icon.png" alt="" class="label-icon">
+                        <label for="user id"> ID NO</label>
+                    </span>
+                    <input name="user id" type="text" placeholder="e.g 1102302012">
+                    </div>
+
+                    <div>
+                        <span>
+                            <img src="images/password.svg" alt="" class="label-icon">
+                        <label for="user password"> PASSWORD</label>
+                    </span>
+                        <input name="user password" type="password" placeholder="Password">
+                    </div>
+
+                    <a href="" id="forgot-password">FORGOT PASSWORD?</a>
+
+                    <input type="submit" value="LOGIN">
+                    <a href="">ADD NEW STAFF</a>
+
+                </form>
+            </div>
         </div>
-    </div>
 </body>
+
 </html>
