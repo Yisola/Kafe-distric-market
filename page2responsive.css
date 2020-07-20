@@ -19,7 +19,11 @@
     }
 
     #search{
-        width: 45%;
+        width: 60%;
+    }
+
+    #check-receipt {
+        width: 30%;
     }
 }
 
@@ -48,6 +52,14 @@
     #receipt-label {
         margin-bottom: 0;
     }
+
+    #search, #ckeck-receipt {
+        width: unset;
+    }
+
+    #check-receipt{
+        max-width: 170px;
+    }
 }
 
     
@@ -60,7 +72,6 @@
     }
 
     .box {
-    align-items: center;
-    
+    align-items: center;   
 }
 }
