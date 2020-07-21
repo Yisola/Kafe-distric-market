@@ -89,7 +89,8 @@ input:active {
 
 select {
     padding: 12px 20px ;
-    color: transparent;
+    color: #b5b5b5;
+    background-color: #fff;
     outline: none;
     width: 100%;
     
