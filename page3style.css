@@ -21,7 +21,7 @@ body {
     padding: 5% 10%;
 }
 
-#sidebar {
+.sidebar {
     display: none;
 }
 
