@@ -22,10 +22,10 @@ nav {
     width: 100%;
     background: #fff ;
     display: flex; 
- justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 5px 5px #ddd;
-    
+    position: fixed;
 }
 
 nav h1 {
@@ -91,6 +91,11 @@ label #sign-two{
         max-width: 200px;
         box-shadow: 0 17px 17px #bbb;
         border-top: 1px solid #ddd;
+    }
+
+    nav {
+        
+    z-index: 10;
     }
 
     nav ul li {

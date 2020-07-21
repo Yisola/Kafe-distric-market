@@ -17,6 +17,8 @@ body {
     height: 90%;
     padding: 5%;
     width: 100%;
+    position: relative;
+    top: 10%;
 }
 
 #welcome {
@@ -32,8 +34,7 @@ body {
     box-shadow: 0 0 11px #ccc;
     background-color: #ffffff;
     margin-top: 25px;
-    border-right: 4px solid #1d90e2;
-    
+    border-right: 4px solid #1d90e2;    
 }
 
 .label {
@@ -57,7 +58,7 @@ a {
 
 button {
     background-color: #1d90e2;
-    padding: 0 20px ;
+    padding: 0 20px;
     display: flex;
     justify-items: center;
     align-items: center;
