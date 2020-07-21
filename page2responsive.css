@@ -12,74 +12,58 @@
         justify-content: space-between;
         border-right: 5px solid #1d90e2;
     }
-
-    a{
-        width: 45% ;
+    a {
+        width: 45%;
     }
-
     button {
-        /* width: 45%; */
         margin-top: 0;
     }
-
-    #search{
+    #search {
         width: 60%;
     }
-
     #check-receipt {
         width: 30%;
     }
 }
 
 @media screen and (min-width: 750px) {
-   .box {
-    border-right: 8px solid #1d90e2;
-   }
-
-    .break{
+    .box {
+        border-right: 8px solid #1d90e2;
+    }
+    .break {
         display: none;
     }
-
-    a{
+    a {
         width: unset;
     }
-
     button {
-        /* width: unset; */
         margin-top: 0;
     }
-
     #staff {
         width: 73px;
     }
-
     .view-staff {
         width: 97px;
     }
-
     #receipt-label {
         margin-bottom: 0;
     }
-
-    #search, #ckeck-receipt {
+    #search,
+    #ckeck-receipt {
         width: unset;
     }
-
-    #check-receipt{
+    #check-receipt {
         max-width: 170px;
     }
 }
 
-    
 @media screen and (min-width: 850px) {
-
     .menu-container {
         max-width: 950px;
         margin-left: auto;
         margin-right: auto;
     }
-
     .box {
-    align-items: center;   
-}
+        align-items: center;
+    }
 }

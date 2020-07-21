@@ -45,114 +45,131 @@
             <h2>BIO DATA</h2>
 
             <form>
-                <div>
-                    <label for="title">Title</label><br/>
-                    <select name="title">
-                        <!-- <input name="title" type="text" placeholder="Mr" required> -->
-                        <option>Mr</option>
-                        <option>Mrs</option>
-                        <option>Miss</option>
-                    </select><br>
+                <div class="dropdown-container">
+                    <label for="title">Title</label><br />
+
+                    <div class="dropdown-holder ">
+                        <select name="title">
+                            <option>Mr</option>
+                            <option>Mrs</option>
+                            <option>Miss</option>
+                        </select><br>
+                        <img src="images/drop-down-arrow.svg" alt="" height="15px" width="15px">
+                    </div>
                 </div>
 
                 <div id="select-image__container">
-                    <!-- <label for=""></label><br> -->
-                    <input name="select image" type="text" placeholder="Select Image" id="select-image" required><br>
+                    <input name="select image" type="text" placeholder="Select Image" id="select-image"><br>
                 </div>
 
                 <div>
                     <label for="first name">First Name</label> <br>
-                    <input name="first name" type="text" placeholder="e.g Henry" required><br>
+                    <input name="first name" type="text" placeholder="e.g Henry"><br>
                 </div>
 
                 <div>
                     <label for="Middle Name">Middle Name</label><br>
-                    <input name="middle name" type="text" placeholder="e.g Adejola" required><br>
+                    <input name="middle name" type="text" placeholder="e.g Adejola"><br>
                 </div>
 
                 <div>
                     <label for="surname">Surname (Family Name)</label><br>
-                    <input name="surname" type="text" placeholder="e.g Arinze" required><br>
+                    <input name="surname" type="text" placeholder="e.g Arinze"><br>
                 </div>
 
-                <div>
+                <div class="dropdown-container">
                     <label for="gender"> Gender</label><br>
-                    <select name="gender">
-                        <option>Male</option>
-                        <option>Female</option>
-                    </select><br>
+
+                    <div class="dropdown-holder">
+                        <select name="gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select><br>
+                        <img src="images/drop-down-arrow.svg" alt="" width="15px" height="15px">
+                    </div>
                 </div>
-                <!-- <input name="gender" type="text" placeholder="Please Select" required> -->
                 <div>
                     <label for="date of birth">Date of Birth</label><br>
-                    <input name="date of birth" type="text" placeholder="Please Select" required><br>
+                    <input name="date of birth" type="text" placeholder="Please Select"><br>
                 </div>
 
                 <div>
                     <label for="occupation">Occupation</label><br>
-                    <input name="occupation" type="text" placeholder="e.g Trader" required><br>
+                    <input name="occupation" type="text" placeholder="e.g Trader"><br>
                 </div>
 
-                <div>
+                <div class="dropdown-container">
                     <label for="nationality">Nationality</label><br>
-                    <!-- <input name="nationality" type="text" placeholder="Please Select" required> -->
-                    <select name="nationality">
-                        <option>Nigerian</option>
-                        <option> Ghanian</option>
-                    </select><br>
+
+                    <div class="dropdown-holder">
+                        <select name="nationality">
+                            <option>Nigerian</option>
+                            <option> Ghanian</option>
+                        </select><br>
+                        <img src="images/drop-down-arrow.svg" alt="" height="15px" width="15px">
+                    </div>
                 </div>
 
-                <div>
+                <div class="dropdown-container">
                     <label for="state">State</label><br>
-                    <!-- <input name="state" type="text" placeholder="Please Select" required> -->
-                    <select name="state">
-                        <option>Abia</option>
-                        <option>Adamawa</option>
-                    </select><br>
+
+                    <div class="dropdown-holder">
+                        <select name="state">
+                            <option>Abia</option>
+                            <option>Adamawa</option>
+                        </select><br>
+                        <img src="images/drop-down-arrow.svg" alt="" height="15px" width="15px">
+                    </div>
                 </div>
 
-                <div>
+                <div class="dropdown-container">
                     <label for="local government">Local Government</label><br>
-                    <!-- <input name="local government" type="text" placeholder="Please Select" required> -->
-                    <select name="local government">
-                        <option>Ikordu</option>
-                        <option>Eti-Osa</option>
-                    </select><br>
+
+                    <div class="dropdown-holder">
+                        <select name="local government">
+                            <option>Ikordu</option>
+                            <option>Eti-Osa</option>
+                        </select><br>
+                        <img src="images/drop-down-arrow.svg" alt="" height="15px" width="15px">
+                    </div>
                 </div>
 
-                <div>
+                <div class="dropdown-container">
                     <label for="marital status">Marital Status</label><br>
-                    <!-- <input name="marital status" type="text" placeholder="Please Select" required> -->
-                    <select name="marital status">
-                        <option>Married</option>
-                        <option>Single</option>
-                    </select><br>
+
+                    <div class="dropdown-holder">
+                        <select name="marital status">
+                            <option>Married</option>
+                            <option>Single</option>
+                        </select><br>
+                        <img src="images/drop-down-arrow.svg" alt="" height="15px" width="15px">
+                    </div>
                 </div>
 
-                <div>
+                <div class="dropdown-container">
                     <label for="education level">Highest Educational Level</label><br>
-                    <!-- <input name="educational level" type="text" placeholder="Please Select" required> -->
-                    <select name="educational level">
-                        <option>Primary School Certificate</option><br>
-                        <option>Secondary School Certificate</option><br>
-                    </select>
+
+                    <div class="dropdown-holder">
+                        <select name="educational level">
+                            <option>Primary School Certificate</option><br>
+                            <option>Secondary School Certificate</option><br>
+                        </select>
+                        <img src="images/drop-down-arrow.svg" alt="" width="15px" height="15px">
+                    </div>
                 </div>
 
                 <div>
                     <label for="other">Other</label><br>
                     <input name="other" type="text" placeholder=""><br>
-                    <!-- <textarea name="other" id="" cols="14" rows="2"></textarea> -->
                 </div>
 
                 <div class="break"></div>
 
                 <a href="" class="button-a"><button id="save">Save & Continue</button></a>
-                <a href="page2.html" class="button-a"><button id="go">Go Back</button></a>
+                <a href="page2.html" class="button-a"><button formaction="page2.html" id="go">Go Back</button></a>
 
             </form>
-
         </div>
-
     </div>
 </body>
 

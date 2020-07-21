@@ -36,21 +36,23 @@ body {
     height: 91%;
     padding: 5%;
     overflow-y: scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    }
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-    .welcome-form::-webkit-scrollbar {
-        display: none;
-      }
-      
+
+.welcome-form::-webkit-scrollbar {
+    display: none;
+}
 
 form {
     display: flex;
     flex-direction: column;
 }
-
 
 h5 {
     color: #7cbfee;
@@ -73,7 +75,7 @@ input {
 
 input:focus,
 input:active {
-   border: 1px solid #7cbfee;
+    border: 1px solid #7cbfee;
 }
 
 .label-icon {
@@ -92,16 +94,18 @@ a {
     align-self: flex-end;
 }
 
+a:hover,
+a:active {
+    color: #9edeee;
+}
+
 input[type="submit"] {
     margin-top: 20px;
-    background-color:#1d90e2;
+    background-color: #1d90e2;
     color: #ffffff;
 }
 
 input[type="submit"]:hover,
 input[type="submit"]:active {
-   background-color:#3db0f4;
+    background-color: #3db0f4;
 }
-
-
-
