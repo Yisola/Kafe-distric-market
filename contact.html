@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="contactresponsive.css">
+    <script src="https://kit.fontawesome.com/a236e329c0.js" crossorigin="anonymous"></script>
+    <title>Contact Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <h1>KAFE DISTRICT MARKET</h1>
+            <input type="checkbox" id="res-menu">
+            <label for="res-menu">
+                <i class="fa fa-bars" id="sign-one"></i>
+                <i class="fa fa-times" id="sign-two"></i>
+            </label>
+
+            <ul>
+                <li><a href=""> My Profile</a></li>
+                <li><a href="">Settings</a></li>
+                <li><a href="">Logout</a></li>
+            </ul>
+        </nav>
+
+        <div class=" contact-container">
+
+            <div class="sidebar">
+                <ul>
+                    <li>BIO DATA</li>
+                    <li id="contact-details">CONTACT DETAILS</li>
+                    <li>NEXT OF KIN</li>
+                    <li>SPACE BOOKING</li>
+                    <li>DOCUMENT UPLOAD</li>
+                    <li id="declaration">DECLARATION</li>
+                </ul>
+            </div>
+
+            <div class="main-menu__container">
+
+                <h2 id="page-header">CONTACT DETAILS</h2>
+
+                <div class="id-container">
+                    <div>
+                        <h5>ID</h5>
+                        <h3>1001000203203</h3>
+                    </div>
+
+                    <div>
+                        <h5>Name</h5>
+                        <h3>Mr. Dikko Chinedu Oladapo</h3>
+                    </div>
+
+                    <div>
+                        <h5>Occupation</h5>
+                        <h3>Trader</h3>
+                    </div>
+                </div>
+
+                <img src="images/old man.jpg" alt="" id="customer-image">
+
+                <form action="">
+                    <h4>Residential Address</h4>
+
+                    <div id="inner-form">
+
+                        <div>
+                            <label for="first name">Street name</label> <br>
+                            <input name="first name" type="text" placeholder="e.g 17, Ademola road"><br>
+                        </div>
+
+                        <div>
+                            <label for="first name">District</label> <br>
+                            <input name="first name" type="text" placeholder="e.g Wuse"><br>
+                        </div>
+
+                        <div>
+                            <label for="first name">City/Town</label> <br>
+                            <input name="first name" type="text" placeholder="e.g Abuja"><br>
+                        </div>
+
+                        <div class="dropdown-container">
+                            <label for="title">State</label><br />
+                            <div class="dropdown-holder ">
+                                <select name="state">
+                                    <option>Abia</option>
+                                    <option>Adamawa</option>
+                                    <option>Akwa-Ibom</option>
+                                </select><br>
+                                <img src="images/drop-down-arrow.svg" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown-container">
+                            <label for="title">Country</label><br />
+                            <div class="dropdown-holder ">
+                                <select name="country">
+                                    <option>Nigeria</option>
+                                    <option>Togo</option>
+                                    <option>Ghana</option>
+                                </select><br>
+                                <img src="images/drop-down-arrow.svg" alt="">
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <label for="first name">Email</label> <br>
+                            <input name="first name" type="text" placeholder="e.g damola@yahoo.com"><br>
+                        </div>
+
+                        <div>
+                            <label for="first name">Mobile Number</label> <br>
+                            <input name="first name" type="text" placeholder="e.g 08080801212"><br>
+                        </div>
+
+                    </div>
+
+                    <a href="contact.html" class="button-a"><button id="save" formaction="contact.html">Save &
+                            Continue</button></a>
+                    <a href="page3.html" class="button-a"><button formaction="page3.html" id="go">Go Back</button></a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

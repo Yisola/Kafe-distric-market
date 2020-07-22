@@ -6,11 +6,16 @@ html, body {
     width: 100%;
 }
 
+h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
 *, * :before, *:after {
     box-sizing: border-box;
 }
 
-.body-container {
+.contact-container {
     position: relative;
     top: 10%;
     height: 90%;
@@ -22,18 +27,30 @@ html, body {
     display: none;
 }
 
-h2 {
+#page-header {
     color: #67b4eb;
     text-align: center;
     height: 2%;
+    margin-top: 10px;
+    width: 100%;
 }
 
 form {
-    border: 1px solid #e3f3ff;
-    padding: 5px;
+    height: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 25px;
+}
+
+#inner-form {
+    border: 1px solid #a2d1f3;
+    padding: 15px;
     width: 100%;
     overflow: hidden;
-    height: 98%;
     overflow-y: scroll;
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -42,12 +59,46 @@ form {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    border-radius: 7px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 
 form::-webkit-scrollbar {
     display: none;
+}
+
+#inner-form>div {
+    margin: 9px;
+}
+
+div>label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+h5 {
+    color: #8ec7f0;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+h4 {
+    color: #71b9ed;
+    margin-bottom: 5px;
+}
+
+#customer-image {
+    display: none;
+}
+
+input {
+    outline: none;
 }
 
 label {
@@ -86,36 +137,6 @@ input:focus, input:active {
     color: #e3e3e3;
 }
 
-select {
-    padding: 12px 20px;
-    color: #b5b5b5;
-    background-color: #fff;
-    outline: none;
-    width: 100%;
-    appearance: none;
-}
-
-#select-image__container {
-    align-self: flex-end;
-}
-
-form>div {
-    margin: 9px;
-}
-
-div>label {
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-#select-image {
-    align-self: baseline;
-}
-
-input {
-    outline: none;
-}
-
 .dropdown-holder {
     width: 100%;
     display: flex;
@@ -127,9 +148,13 @@ input {
 }
 
 select {
-    border: none;
+    padding: 12px 20px;
+    color: #b5b5b5;
+    background-color: #fff;
     outline: none;
     width: 100%;
+    appearance: none;
+    border: none;
 }
 
 .dropdown-holder>img {
@@ -189,68 +214,4 @@ button {
 
 #go:hover, #go:active {
     background-color: #f5f5f5;
-}
-
-@media screen and (min-width: 600px) {
-    .button-a {
-        width: 40%;
-    }
-}
-
-@media screen and (min-width: 850px) {
-    .body-container {
-        display: flex;
-    }
-    h2 {
-        display: none;
-    }
-    .sidebar {
-        display: unset;
-        height: 80%;
-        margin-right: 25px;
-        width: 45%;
-        background-color: #f5f5f5;
-        overflow: hidden;
-        border-radius: 4px;
-    }
-    .sidebar ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    .sidebar ul li {
-        border-bottom: 1px solid #d2eafc;
-        padding: 10px;
-        font-size: 0.8rem;
-        color: #c8c8c8;
-        font-weight: bold;
-    }
-    #biodata {
-        background-color: #1d90e2;
-        color: #fff;
-    }
-    #declaration {
-        color: #fff;
-    }
-    .button-a {
-        width: 40%;
-    }
-}
-
-@media screen and (min-width: 880px) {
-    .body-container {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .sidebar {
-        width: 20%;
-    }
-    form {
-        width: 57%;
-    }
-    .button-a {
-        width: 28%;
-    }
 }

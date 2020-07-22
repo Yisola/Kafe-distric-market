@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -7,9 +6,7 @@ body {
     width: 100%;
 }
 
-*,
-* :before,
-*:after {
+*, * :before, *:after {
     box-sizing: border-box;
 }
 
@@ -20,12 +17,14 @@ body {
 nav {
     height: 10%;
     width: 100%;
+    min-height: 60px;
     background: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 5px 5px #ddd;
     position: fixed;
+    z-index: 10;
 }
 
 nav h1 {
@@ -55,8 +54,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-label #sign-one,
-label #sign-two {
+label #sign-one, label #sign-two {
     font-size: 30px;
     color: #8ec7f0;
     align-self: flex-end;
@@ -92,9 +90,9 @@ label #sign-two {
         box-shadow: 0 17px 17px #bbb;
         border-top: 1px solid #ddd;
     }
-    nav {
+    /* nav {
         z-index: 10;
-    }
+    } */
     nav ul li {
         display: block;
         margin: 40px 0;

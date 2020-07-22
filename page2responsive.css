@@ -48,8 +48,7 @@
     #receipt-label {
         margin-bottom: 0;
     }
-    #search,
-    #ckeck-receipt {
+    #search, #ckeck-receipt {
         width: unset;
     }
     #check-receipt {

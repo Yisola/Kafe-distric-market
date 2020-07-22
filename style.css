@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -8,9 +7,7 @@ body {
     background-color: #1d90e2;
 }
 
-*,
-* :before,
-*:after {
+*, * :before, *:after {
     box-sizing: border-box;
 }
 
@@ -42,7 +39,6 @@ body {
     /* Firefox */
 }
 
-
 /* Hide scrollbar for Chrome, Safari and Opera */
 
 .welcome-form::-webkit-scrollbar {
@@ -58,8 +54,7 @@ h5 {
     color: #7cbfee;
 }
 
-input,
-label {
+input, label {
     display: inline;
 }
 
@@ -73,8 +68,7 @@ input {
     outline: none;
 }
 
-input:focus,
-input:active {
+input:focus, input:active {
     border: 1px solid #7cbfee;
 }
 
@@ -94,8 +88,7 @@ a {
     align-self: flex-end;
 }
 
-a:hover,
-a:active {
+a:hover, a:active {
     color: #9edeee;
 }
 
@@ -105,7 +98,6 @@ input[type="submit"] {
     color: #ffffff;
 }
 
-input[type="submit"]:hover,
-input[type="submit"]:active {
+input[type="submit"]:hover, input[type="submit"]:active {
     background-color: #3db0f4;
 }
