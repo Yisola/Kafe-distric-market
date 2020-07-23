@@ -220,16 +220,19 @@ button {
     }
     .sidebar ul li {
         border-bottom: 1px solid #d2eafc;
-        padding: 10px;
         font-size: 0.8rem;
         color: #c8c8c8;
         font-weight: bold;
     }
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #c8c8c8;
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
     #biodata {
         background-color: #1d90e2;
-        color: #fff;
-    }
-    #declaration {
         color: #fff;
     }
     .button-a {

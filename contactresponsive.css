@@ -7,6 +7,12 @@
     width: 100%;
 }
 
+@media screen and (min-width: 500px) {
+    .button-a {
+        width: 40%;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .main-menu__container {
         display: flex;
@@ -73,13 +79,22 @@
     }
     .sidebar ul li {
         border-bottom: 1px solid #d2eafc;
-        padding: 10px;
         font-size: 0.8rem;
-        color: #c8c8c8;
+        color: #cebfbf;
         font-weight: bold;
+    }
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #c8c8c8;
+        padding: 10px;
+        width: 100%;
+        display: block;
     }
     .main-menu__container {
         width: 70%;
+    }
+    #biodata {
+        color: #379ce4
     }
     #contact-details {
         background-color: #1d90e2;
