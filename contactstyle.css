@@ -44,6 +44,7 @@ form {
     overflow: hidden;
     overflow-y: scroll;
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 #inner-form {

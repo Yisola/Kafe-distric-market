@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+*, * :before, *:after {
+    box-sizing: border-box;
+}
+
+h5 {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 8px;
+}
+
+form {
+    border: 1px solid #a2d1f3;
+    padding: 15px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+form::-webkit-scrollbar {
+    display: none;
+}
+
+form>div {
+    margin: 9px;
+}
+
+#inner-form {
+    position: relative;
+    overflow: unset;
+    margin-top: 25px;
+}
+
+#form-title {
+    position: absolute;
+    border: 1px solid #fff;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding-left: 2px;
+    padding-right: 5px;
+    color: #47a5e7;
+    top: -10px;
+    left: 5px;
+}
+
+.dropdown-holder {
+    width: 160px;
+}
+
+@media screen and (min-width: 360px) {
+    .dropdown-holder {
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .dropdown-holder {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #page-header {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    #biodata {
+        color: #379ce4;
+    }
+    #contact-sidebar {
+        color: #379ce4;
+    }
+    #next-sidebar {
+        color: #379ce4;
+    }
+    #spacebooking-sidebar {
+        background-color: #1d90e2;
+        color: #fff;
+    }
+}
