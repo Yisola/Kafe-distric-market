@@ -1,0 +1,183 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+*, * :before, *:after {
+    box-sizing: border-box;
+}
+
+h5 {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 8px;
+}
+
+.applicant-image {
+    border: 1px solid #f1f1f1;
+    height: 140px;
+    width: 140px;
+    background-color: #f1f1f1;
+    /* margin-left: 10px ; */
+}
+
+.break {
+    width: 100%;
+}
+
+button {
+    margin-top: unset;
+    /* display: unset;
+    justify-items: unset;
+    /* align-items: unset; */
+    /* justify-content: unset;
+    align-self: unset; */
+}
+
+.upload-image__button {
+    background-color: #1d90e2;
+    color: #fff;
+    width: 120px;
+    border-radius: 5px;
+    padding: 8px 8px;
+    align-self: unset;
+}
+
+.upload-image__button:hover,
+.upload-image__button:active {
+    background-color: #3fb2f4;
+}
+
+.inner-form__header {
+    font-size: 0.95rem;
+}
+
+.inner-form__document {
+    border: 1px solid #a2d1f3;
+    padding: 15px;
+    width: 100%;
+    
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    display: flex;
+    flex-wrap: wrap;
+    
+    border-radius: 7px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+    flex-direction: column;
+}
+
+
+.inner-form__document > div {
+    margin: 9px 0;
+}
+
+
+.dropdown-holder {
+    margin: unset;
+    width: 70%;
+}
+
+.select-image__input{
+    width: 70%;
+}
+
+@media screen and (min-width:600px) {
+    .inner-form__document {
+         height: 240px;
+         justify-content: center;
+         align-content: space-between;
+    }
+
+    .break {
+        width: unset;
+        height: 100%;
+        order: 1;
+    }
+    .applicant-image {
+        order: 1;
+        width: 180px;
+        height: 180px;
+    }
+
+    .application-fee {
+        justify-content: unset;
+    }
+    .inner-form__document {
+        position: relative;
+        overflow: unset;
+    }
+
+    .other_innerform__document {
+        flex-direction: row;
+        height: unset;
+        /* align-content: space-between; */
+        justify-content: unset;
+        
+    }
+
+    .other_innerform__document > .break {
+        height: unset;
+        width: 100%;
+        order: unset;
+    }
+
+    .select-image__input{
+        width: 80%;
+        margin-right: 15px;
+    }
+
+    #biodata {
+        color: #379ce4;
+    }
+    #contact-sidebar {
+        color: #379ce4;
+    }
+    #next-sidebar {
+        color: #379ce4;
+        background-color: #f5f5f5;
+    }
+    #spacebooking-sidebar {
+        color: #379ce4;
+    }
+
+    #document-upload__sidebar {
+        background-color: #1d90e2;
+        color: #fff;
+    }
+}
+
+@media screen and (min-width:850px) {
+  .inner-form__header {
+      display: none;
+  }
+
+  .form-title {
+      top: -9px ;
+  }
+  .applicant-image{
+        width: 160px;
+        height: 160px;
+  }
+}
+
+@media screen and (min-width:900px) {
+    .applicant-image{
+        width: 180px;
+        height: 180px;
+
+  }
+}
